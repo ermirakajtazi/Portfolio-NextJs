@@ -5,6 +5,10 @@ Portfolio Project with Next.js, Animation, Tailwind CSS, and Framer Motion
 
 Welcome to my personal portfolio project! This repository showcases my skills, projects, and experiences.
 
+# Deployed Vercel Link
+
+https://portfolio-next-js-ermira-kajtazi.vercel.app/
+
 ## Technologies Used
 
 - **Next.js:** A powerful React framework for building static and dynamic web applications. Supercharge your development with server-side rendering and seamless client-side navigation.
