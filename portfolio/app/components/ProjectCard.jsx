@@ -2,9 +2,9 @@ import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-export const ProjectCard = ({ imgUrl, title, description }) => {
+export const ProjectCard = ({ imgUrl, title, description, gitUrl }) => {
   return (
-    <div>
+    <Link href={gitUrl}>
       <div
         className="h-52 md:h-72 rounded-t-xl relative group"
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
@@ -16,6 +16,6 @@ export const ProjectCard = ({ imgUrl, title, description }) => {
         <h5 className="font-xl font-semibold mb-2">{title}</h5>
         <p className="text-[#ADB7BE]">{description}</p>
       </div>
-    </div>
+    </Link>
   );
 };
