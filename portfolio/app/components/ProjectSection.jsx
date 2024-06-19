@@ -46,6 +46,26 @@ const projectsData = [
   },
   {
     id: 5,
+    title: "Search Dog Breed",
+    description:
+      "This project is a web application for exploring different dog breeds.",
+    image: "/images/projects/DogBreeds.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ermirakajtazi/Dog-Breeds-Explorer",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Settlement amount system",
+    description:
+      "This technical project involves implementing a settlement process between two parties, Party A and Party B.",
+    image: "/images/projects/SettlementAmountSystem.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ermirakajtazi/Settlement_Amount_System",
+    previewUrl: "/",
+  },
+  {
+    id: 7,
     title: "East Side Co",
     description:
       "This project is a website for a makeup and face cream marketing company.",
@@ -55,7 +75,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 8,
     title: "LedCom Website",
     description: "This is a Website create to show the hardware computer store",
     image: "/images/projects/Ledcom.png",
@@ -64,7 +84,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 7,
+    id: 9,
     title: "Vision",
     description:
       "This is a Webiste, create for the health insurance for a german company",
@@ -74,7 +94,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 8,
+    id: 10,
     title: "Avire",
     description:
       "This is a Webiste, create for the cosmetic company and their products",
