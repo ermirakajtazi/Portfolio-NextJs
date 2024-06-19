@@ -94,7 +94,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Avire",
     description:
       "This is a Webiste, create for the cosmetic company and their products",
